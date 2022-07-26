@@ -1,6 +1,6 @@
 import { Navbar as NavbarBs, Nav, Container, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { CartLogo } from "../assets/cartLogo";
+import { CartLogo } from "../assets/CartLogo";
 
 export const Navbar = () => {
   return (
