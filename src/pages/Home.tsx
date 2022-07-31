@@ -1,3 +1,12 @@
+import "./Pages.css";
+import { NavLink } from "react-router-dom";
+
 export const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <div className="buttonContainer">
+      <NavLink to="/store" className="neon-button">
+        Please redirect to the store
+      </NavLink>
+    </div>
+  );
 };
